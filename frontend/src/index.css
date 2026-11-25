@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* El modo oscuro se activa con la clase "dark" en <html> (la maneja themeStore) */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Colores del manual de marca del Club Atlético Belgrano:
+   celeste #3a9cd0 · negro #1d1d1b · blanco #ffffff */
+@theme {
+  --color-brand-50: #eff8fd;
+  --color-brand-100: #d9eef9;
+  --color-brand-200: #b3ddf2;
+  --color-brand-300: #86c8e8;
+  --color-brand-400: #5cb1dc;
+  --color-brand-500: #3a9cd0; /* celeste institucional */
+  --color-brand-600: #2f86b6;
+  --color-brand-700: #266e97;
+  --color-brand-800: #1f5878;
+  --color-surface: #ffffff; /* tarjetas, tablas, modales y barra superior */
+}
+
+/* Modo oscuro: se reasignan las variables de los grises y de las superficies,
+   así las mismas clases de Tailwind sirven para los dos modos. */
+.dark {
+  color-scheme: dark;
+  --color-surface: #262624;
+  --color-gray-50: #1d1d1b; /* negro de marca: fondo de página */
+  --color-gray-100: #2f2f2c;
+  --color-gray-200: #3d3d3a;
+  --color-gray-300: #52524e;
+  --color-gray-400: #8d8d87;
+  --color-gray-500: #a8a8a2;
+  --color-gray-600: #c3c3be;
+  --color-gray-700: #d8d8d4;
+  --color-gray-800: #e9e9e6;
+  --color-gray-900: #f5f5f3;
+  --color-brand-50: #1a2a35;
+  --color-brand-100: #1f3a4b;
+  --color-brand-700: #86c8e8;
+  --color-brand-800: #b3ddf2;
+  --color-red-50: #3a1f1f;
+  --color-red-200: #6b2d2d;
+  --color-red-700: #fca5a5;
+  --color-green-50: #1c3326;
+  --color-green-700: #86efac;
+  --color-amber-100: #4a3a14;
+  --color-amber-800: #fcd34d;
+  --color-blue-100: #1e3a5f;
+  --color-blue-800: #93c5fd;
+  --color-green-100: #1c3326;
+  --color-green-800: #86efac;
+  --color-red-100: #4a1f1f;
+  --color-red-800: #fca5a5;
+}
