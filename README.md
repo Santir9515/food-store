@@ -4,8 +4,8 @@ Trabajo Práctico Integrador — **Programación 4** · Tecnicatura Universitari
 
 Aplicación web de pedidos de comida: catálogo con búsqueda, filtros y paginación, carrito persistente, checkout, seguimiento de pedidos para el cliente y panel de administración (resumen, pedidos, productos, categorías y usuarios).
 
-- **Repositorio:** https://github.com/TU_USUARIO/food-store  ← _(reemplazar por la URL del repositorio público)_
-- **Video de demostración:** https://youtu.be/XXXXXXXXXXX  ← _(reemplazar por el link público del video)_
+- **Repositorio:** https://github.com/Santir9515/food-store 
+- **Video de demostración:*https://youtu.be/wcu-izXXpnQ* 
 
 ---
 
